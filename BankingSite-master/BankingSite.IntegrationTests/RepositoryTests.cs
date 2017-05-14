@@ -11,7 +11,7 @@ namespace BankingSite.IntegrationTests
         public void ShouldPopulateIdOnCreateLoanApplication()
         {
             var sut = new Repository();
-
+//тест
             var applicationToSave = new LoanApplication
             {
                 FirstName = "Gentry",
