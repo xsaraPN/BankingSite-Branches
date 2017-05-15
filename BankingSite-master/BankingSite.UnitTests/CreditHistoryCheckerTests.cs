@@ -26,16 +26,6 @@ namespace BankingSite.UnitTests
             Assert.That(isCreditWorthy, Is.True);
         }
 
-        [Test]
-        [Author("Londa")]
-        [Property("Credit", "1")]
-        public void ShouldOkPeopleWithGoodCredit1()
-        {
-            var sut = new CreditHistoryChecker();
-
-            var isCreditWorthy = sut.CheckCreditHistory("Gentry", "Smith");
-
-            Assert.That(isCreditWorthy, Is.True);
-        }
+        
     }
 }
